@@ -84,6 +84,7 @@ Library
  --                    , MonadCatchIO-transformers == 0.3.*
   extensions:         EmptyDataDecls
   Ghc-options:        -Wall
+  include-dirs:       /usr/include/ImageMagick-6/
   if os(darwin)
         cpp-options:  -DCABAL_OS_DARWIN
   if os(windows)
